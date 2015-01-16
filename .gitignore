@@ -1,2 +1,17 @@
 # JB Git Ignore
 bin/*.pdb
+demoheader.tmp
+cfg/config.cfg
+cfg/server_blacklist.txt
+content/**/*sound.cache
+download
+downloadlists
+luacache
+maps/**/*.ain
+materials/temp
+modelsounds.cache
+SAVE
+screenshots
+sound/sound.cache
+stats.txt
+voice_ban.dt
