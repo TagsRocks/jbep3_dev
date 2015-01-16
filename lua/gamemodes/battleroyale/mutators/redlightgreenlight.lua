@@ -34,6 +34,7 @@ function mutator:Think()
 			nextFreeze = CurTime() + 3 + ( math.random() * maxFreezeDuration )
 		else
 			nextFreeze = CurTime() + 3 + ( math.random() * maxFreezeDelay )
+			game.BroadcastSound( 0, "JB.BRMusic_SpecialRoundType" )
 		end
 	end
 
