@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "jb_edge/surface_yellow"
+	"$bumpmap" "jb_edge/surface_nrml_s"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "jb_edge/surface_spec"
+	"$envmaptint" "[.3 .5 .6]"
+	"%keywords" "colossal, jb, edge, vansulli"
+}
