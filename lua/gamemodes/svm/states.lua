@@ -158,6 +158,7 @@ function states.PreRound:Enter( gm )
 
     -- Freeze everyone briefly
     gm:FreezePlayers( true )
+    game.ShowRoundIntro()
 
 end
 
