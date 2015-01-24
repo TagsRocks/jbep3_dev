@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "papery/paper005a_diff"
+	"$surfaceprop" "paper"
+	"%keywords" "vansulli,colossal,20brush"
+	"$bumpmap" "papery/paper_nrml"
+}
