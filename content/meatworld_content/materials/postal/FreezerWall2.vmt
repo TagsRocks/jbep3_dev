@@ -3,4 +3,5 @@
 	"$basetexture" "postal/FreezerWall2"
 	"$surfaceprop" "metal"
 	"$envmap" "env_cubemap"
+	"$envmaptint"		"[0.01 0.01 0.01]"
 }
