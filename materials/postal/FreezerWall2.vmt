@@ -1,6 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "postal/FreezerWall2"
-	"$surfaceprop" "metal"
-	"$envmap" "env_cubemap"
-}
