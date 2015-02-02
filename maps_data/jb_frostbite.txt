@@ -1,0 +1,46 @@
+"jb_frostbite"
+{
+	"KOTHAreas"
+	{
+		"Jim's left room"
+		{
+			"bounding_min"		"-1521 2305 224"
+			"bounding_max"		"-1024 1184 640"
+			"area_0"
+			{
+				"min"		"-1521 2305 224"
+				"max"		"-1024 1184 640"
+			}
+		}
+		"Jim's right room"
+		{
+			"bounding_min"		"1024 2305 224"
+			"bounding_max"		"1520 1184 640"
+			"area_0"
+			{
+				"min"		"1024 2305 224"
+				"max"		"1520 1184 640"
+			}
+		}
+		"middle teleport"
+		{
+			"bounding_min"		"-144 1120 336"
+			"bounding_max"		"144 1440 672"
+			"area_0"
+			{
+				"min"		"-144 1120 336"
+				"max"		"144 1440 672"
+			}
+		}
+		"cliffside"
+		{
+			"bounding_min"		"-512 256 0"
+			"bounding_max"		"512 -128 384"
+			"area_0"
+			{
+				"min"		"-512 256 0"
+				"max"		"512 -128 384"
+			}
+		}
+	}
+}
