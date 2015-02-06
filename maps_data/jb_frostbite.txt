@@ -24,11 +24,11 @@
 		}
 		"middle teleport"
 		{
-			"bounding_min"		"-144 1120 336"
+			"bounding_min"		"-144 1120 416"
 			"bounding_max"		"144 1440 672"
 			"area_0"
 			{
-				"min"		"-144 1120 336"
+				"min"		"-144 1120 416"
 				"max"		"144 1440 672"
 			}
 		}
