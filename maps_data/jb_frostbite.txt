@@ -34,11 +34,11 @@
 		}
 		"cliffside"
 		{
-			"bounding_min"		"-512 256 0"
+			"bounding_min"		"-512 192 0"
 			"bounding_max"		"512 -128 384"
 			"area_0"
 			{
-				"min"		"-512 256 0"
+				"min"		"-512 192 0"
 				"max"		"512 -128 384"
 			}
 		}
