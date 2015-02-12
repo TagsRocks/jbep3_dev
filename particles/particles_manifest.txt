@@ -66,4 +66,6 @@ particles_manifest
 
 	// jb_subtransit
 	"file"		"particles/dank_spray.pcf"
+	//junior's maps
+	"file"		"particles/lich.pcf"
 }

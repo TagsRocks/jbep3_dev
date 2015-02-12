@@ -1,5 +1,0 @@
-particles_manifest
-{
-	"file"		"particles/lich.pcf"
-	"file"		"particles/fusioncore.pcf"
-}
