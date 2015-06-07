@@ -128,25 +128,29 @@ function GM:OnPlayerCondition( pl, added, removed )
 end
 
 -- pick a mutator to use this round
+GM.MutatorsQueue = {}
+
 function GM:SelectMutator()
 
 	-- Reset
 	self.ActiveMutator = nil
 
+	-- Check if mutator queue is empty, if it is, we need to fill it back up again
+
+
 	-- If we're forcing weapon, we want to just use the default mutator
 	if( self.Cvars.EnableMutators:GetBool() and self.Cvars.ForceWeapon:GetString() == "" ) then
 
+		-- We want to force a specific mutator
+		if( self.Cvars.ForceMutator:GetString() ~= "" ) then
+			self.ActiveMutator = mutators:Get( self.Cvars.ForceMutator:GetString() )
+
 		-- The chance for a mutator round goes up the more normal rounds we have in a row
-		if ( math.random() <= math.Bias( math.min( 0.1 * self.roundsSinceLastMutator, 1 ), self.Cvars.MutatorBias:GetFloat() ) ) then
+		elseif ( math.random() <= math.Bias( math.min( 0.1 * self.roundsSinceLastMutator, 1 ), self.Cvars.MutatorBias:GetFloat() ) ) then
 			self.roundsSinceLastMutator = 0
 			self.ActiveMutator = mutators:GetRandom()
 		end
 		
-		-- We want to force a specific mutator
-		if( self.Cvars.ForceMutator:GetString() ~= "" ) then
-			self.ActiveMutator = mutators:Get( self.Cvars.ForceMutator:GetString() )
-		end
-
 	end
 	
 	-- None selected, go to default mutator

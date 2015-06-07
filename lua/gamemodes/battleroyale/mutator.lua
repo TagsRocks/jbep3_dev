@@ -1,5 +1,6 @@
 mutators = {}
 mutators.mutators = {}
+mutators.specialQueue = {}
 
 -- Register mutator by name
 function mutators:Register( name, tbl )
@@ -57,16 +58,26 @@ end
 -- Returns a random mutator EXCEPT default
 function mutators:GetRandom()
 
-	local mutnames = {}
-	
-	for k, v in pairs( self.mutators ) do
-		if k ~= "default" and v.IsBase ~= true then -- exclude default
-			table.insert( mutnames, v )
-		end
+	-- if empty, create a new special mutator queue
+	if( #self.specialQueue <= 0 ) then
+		for k, v in pairs( self.mutators ) do
+			if k ~= "default" and v.IsBase ~= true then -- exclude default
+				table.insert( self.specialQueue, v )
+			end
+		end		
+	end
+
+	-- pick a random special
+	if( #self.specialQueue > 0 ) then
+		-- random selection
+		local idx = math.random( #self.specialQueue )
+		local mutator = table.remove( self.specialQueue, idx )
+
+		-- return selection
+		return mutator
 	end
 	
-	return mutnames[ math.random( #mutnames ) ]
-
+	return "default"
 end
 
 -- Default mutator
