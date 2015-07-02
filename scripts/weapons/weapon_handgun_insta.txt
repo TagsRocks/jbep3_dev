@@ -3,7 +3,7 @@ WeaponData
 	"BuiltRightHanded"		"1"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"					"#jb_weapon_handgun"
+	"printname"					"#jb_weapon_handgun_insta"
 	"viewmodel"					"models/weapons/v_handgun_insta.mdl"
 	"playermodel"				""
 	"PlayerAnimationExtension"	"mp5"
