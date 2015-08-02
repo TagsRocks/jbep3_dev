@@ -1175,3 +1175,25 @@
 
 	"wave" ")weapons/goldpistols/slideback.wav"
 }
+
+"Boomerang.Idle"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.2"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/boomerang/sparkler.wav"
+}
+
+"Boomerang.Flying"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			")weapons/boomerang/flight.wav"
+}
