@@ -91,6 +91,7 @@ mutator.ItemPool = {
 	"weapon_ax47",
 	"weapon_beretta",
 	"weapon_bofors",
+	"weapon_boomerang",
 	"weapon_box",
 	"weapon_catmine",
 	"weapon_displacer",
