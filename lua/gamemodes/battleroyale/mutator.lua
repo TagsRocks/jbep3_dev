@@ -124,6 +124,7 @@ mutator.ItemPool = {
 	"weapon_vintorez",
 }
 
+mutator.GiveFists = true
 mutator.PlayerModels = {}
 mutator.PlayerConditions = {}
 
@@ -145,11 +146,12 @@ function mutator:GiveItems()
 			if( GAMEMODE.Cvars.ForceWeapon:GetString() ~= "" ) then
 			
 				-- weapon is forced, just give that one
-				local fists = v:GiveNamedItem( "weapon_fists" )
+				local fists = nil
+				if ( self.GiveFists ) then fists = v:GiveNamedItem( "weapon_fists" ) end
 				weapon = v:GiveNamedItem( GAMEMODE.Cvars.ForceWeapon:GetString() )	
 				
-				v:Weapon_Switch( weapon )
-				v:Weapon_SetLast( fists )				
+				if weapon ~= nil then v:Weapon_Switch( weapon ) end
+				if fists ~= nil then v:Weapon_SetLast( fists ) end		
 				
 			else
 			
@@ -168,7 +170,8 @@ function mutator:GiveItems()
 					local randItem = pool[ idx ]
 					
 					-- give it to the player
-					local fists = v:GiveNamedItem( "weapon_fists" )
+					local fists = nil
+					if ( self.GiveFists ) then fists = v:GiveNamedItem( "weapon_fists" ) end
 					weapon = v:GiveNamedItem( randItem )	
 					
 					Msg( "Giving "..tostring(v).." ".. tostring(weapon) .. "\n" )
