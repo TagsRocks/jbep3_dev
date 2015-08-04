@@ -12,6 +12,8 @@ end
 
 function GM:Precache()
 	util.PrecacheScriptSound( "JB.SVMMusic" )
+	util.PrecacheScriptSound( "JB.MonkeyRandom" )
+	
 	util.PrecacheModel( "models/props/cs_italy/bananna.mdl" )
 end
 

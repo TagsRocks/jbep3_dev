@@ -22,3 +22,7 @@ end
 function GM:PlayerRelationship( player, target )
 	return nil -- Default Source behaviour
 end
+
+-- Sound Overrides
+function GM:OverridePlayerSound( player, sound )
+end

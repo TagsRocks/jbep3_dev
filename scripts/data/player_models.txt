@@ -5,6 +5,13 @@
 	// 
 	// Private models
 	//
+	ape
+	{
+		"model" 		"models/player/ape.mdl"
+		"name"			"Ape"
+		"deathsound"	"JB.MonkeyRandom"
+		"disabled"		"1"
+	}
 
 	adamjensen
 	{

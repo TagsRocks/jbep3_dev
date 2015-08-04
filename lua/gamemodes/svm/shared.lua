@@ -30,3 +30,14 @@ function GM:InitTeams()
 	team.Register( TEAM_SNAKE, "#JB_Team_Snake", Color( 185, 220, 255 ), { "jb_spawn_svt_snake" } )
 	team.Register( TEAM_MONKEY, "#JB_Team_Monkey", Color( 255, 50, 50 ), { "jb_spawn_all", "jb_spawn_svt_terrorist" } )
 end
+
+-- Sound Overrides
+function GM:OverridePlayerSound( pl, sound )
+	if( pl:GetTeamNumber() == TEAM_MONKEY ) then
+		local sSoundName = sound:GetSoundName()
+
+		if ( sSoundName == "JB.Death" or sSoundName == "JB.Taunt" or sSoundName == "Weapon_Cash.Throw" ) then
+			sound:SetSoundName( "JB.MonkeyRandom" )
+		end
+	end
+end
