@@ -34,10 +34,8 @@ end
 -- Sound Overrides
 function GM:OverridePlayerSound( pl, sound )
 	if( pl:GetTeamNumber() == TEAM_MONKEY ) then
-		local sSoundName = sound:GetSoundName()
-
-		if ( sSoundName == "JB.Death" or sSoundName == "JB.Taunt" or sSoundName == "Weapon_Cash.Throw" ) then
-			sound:SetSoundName( "JB.MonkeyRandom" )
+		if ( sound == "JB.Death" or sound == "JB.Taunt" or sound == "Weapon_Cash.Throw" ) then
+			return "JB.MonkeyRandom"
 		end
 	end
 end

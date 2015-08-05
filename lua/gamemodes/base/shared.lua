@@ -25,4 +25,5 @@ end
 
 -- Sound Overrides
 function GM:OverridePlayerSound( player, sound )
+	return nil
 end
