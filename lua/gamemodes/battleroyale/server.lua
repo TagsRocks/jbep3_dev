@@ -207,3 +207,30 @@ function GM:AlivePlayers()
 
 	return alive
 end
+
+-- Add some possess spawns if the map has none
+function GM:SpawnCustomEntities()
+	-- If there's no possess spawns on this map, spawn some on spawnpoints	
+	if ( #ents.FindByClassname("jb_possess_spawn") == 0 ) then
+		local spawnPoints = ents.FindByClassname("jb_spawn_all")
+		local randomSciSpawn = math.random( 1, #spawnPoints )
+
+		for k, v in pairs( spawnPoints ) do
+			local randType;
+
+			if ( randomSciSpawn == k ) then
+				randType = "2"
+			else
+				randType = tostring( math.random( 0, 1 ) )
+			end
+
+			local newPossess = CreateEntityByName( "jb_possess_spawn" )
+			newPossess:SetAbsOrigin( v:GetAbsOrigin() + Vector( 0, 0, 30 ) )
+			newPossess:SetAbsAngles( v:GetAbsAngles() )
+			newPossess:KeyValue( "possess_type", randType )
+			newPossess:Spawn()
+		end
+
+		Msg("Spawned ".. #spawnPoints .. " possess spawns.")
+	end
+end

@@ -143,6 +143,11 @@ function GM:CountActivePlayers()
 	return total
 end
 
+-- Place to spawn gamemode specific entities, this is recalled after map cleanup
+function GM:SpawnCustomEntities()
+
+end
+
 -- Utility function to freeze players
 function GM:FreezePlayers( bFreeze )
     for _, v in ipairs( player.GetAlive() ) do

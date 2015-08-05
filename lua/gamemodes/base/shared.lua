@@ -24,6 +24,10 @@ function GM:PlayerRelationship( player, target )
 	return nil -- Default Source behaviour
 end
 
+-- Called after all entities have spawned in and level is good to go
+function GM:LevelInitPostEntity()
+end
+
 -- Sound Overrides
 function GM:OverridePlayerSound( player, sound )
 	return nil
