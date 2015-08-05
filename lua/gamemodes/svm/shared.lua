@@ -14,8 +14,8 @@ SVM_CVAR_FLAGS = FCVAR_NOTIFY + FCVAR_REPLICATED
 GM.Cvars = {}
 
 -- Monkey cvars
-GM.Cvars.MinMonkeySpeed = CreateConVar( "sv_svm_monkey_speed_min", "0.85", SVM_CVAR_FLAGS )
-GM.Cvars.MaxMonkeySpeed = CreateConVar( "sv_svm_monkey_speed_max", "0.9", SVM_CVAR_FLAGS )
+GM.Cvars.MinMonkeySpeed = CreateConVar( "sv_svm_monkey_speed_min", "0.7", SVM_CVAR_FLAGS )
+GM.Cvars.MaxMonkeySpeed = CreateConVar( "sv_svm_monkey_speed_max", "0.8", SVM_CVAR_FLAGS )
 GM.Cvars.MonkeyScale = CreateConVar( "sv_svm_monkey_scale", "0.65", SVM_CVAR_FLAGS )
 GM.Cvars.MonkeyHealth = CreateConVar( "sv_svm_monkey_health", "40", SVM_CVAR_FLAGS )
 

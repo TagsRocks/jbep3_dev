@@ -76,6 +76,7 @@ function GM:PlayerDefaultItems( pl )
 		pl:SetScale( self.Cvars.MonkeyScale:GetFloat() )
 		pl:SetSpeedMod( math.RemapValClamped( self:CountActivePlayers(), 2, 20, self.Cvars.MaxMonkeySpeed:GetFloat(), self.Cvars.MinMonkeySpeed:GetFloat() ) )
 		pl:SetHealth( self.Cvars.MonkeyHealth:GetInt() )
+		pl:TEMP_EnableMonkeyParticle()
 
 	else
 
