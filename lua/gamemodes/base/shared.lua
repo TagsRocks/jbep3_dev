@@ -4,6 +4,7 @@ GM.Developer = "Team BBB"
 
 GM.TeamPlay = false
 GM.SelectableTeams = false
+GM.RoundBased = false
 
 TEAM_SPECTATORS = 1
 TEAM_RED = 2

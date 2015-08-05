@@ -2,6 +2,7 @@ GM.Name = "Battle Royale"
 GM.Description = "Here's a description for BR from Lua!"
 GM.Developer = "Team BBB"
 GM.BaseGamemode = "base"
+GM.RoundBased = true
 
 TEAM_PLAYERS = 2
 

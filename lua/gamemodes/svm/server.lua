@@ -68,7 +68,7 @@ function GM:IsSpawnPointValid( point, pl )
 end
 
 function GM:PlayerDefaultItems( pl )
-
+	
 	if( pl:GetTeamNumber() == TEAM_MONKEY ) then
 
 		pl:GiveNamedItem( "weapon_fists" )

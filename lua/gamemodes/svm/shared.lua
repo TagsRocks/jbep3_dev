@@ -5,6 +5,7 @@ The rest of the players in the game spawn as monkeys and have infinite lives. Th
 
 GM.Developer = "Team BBB"
 GM.TeamPlay = true
+GM.RoundBased = true
 
 TEAM_SNAKE = 2
 TEAM_MONKEY = 3
