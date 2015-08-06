@@ -242,5 +242,12 @@
 			"origin"		"-880.19 -874.28 400.03"
 			"angles"		"0.00 91.51 0.00"
 		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-198.711243 -3.714521 -23.902142"
+			"angles"		"0.00 0 0"
+			"possess_type"	"2"
+		}
 	}
 }

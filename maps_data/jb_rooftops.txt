@@ -1085,6 +1085,13 @@
 			"angles"		"0.00 -133.27 0.00"
 			"possess_type"	"1"
 		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-894.989319 -744.151184 -849.978760"
+			"angles"		"0.00 130 0.00"
+			"possess_type"	"2"
+		}
 	}
 	"KOTHAreas"
 	{

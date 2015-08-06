@@ -201,8 +201,6 @@
 		"wave"	"scientist/sci_pain10.wav"
 		"wave"	"scientist/c1a0_sci_stayback.wav"
 		"wave"	"scientist/nooo.wav"
-		"wave"	"scientist/overhere.wav"
-		"wave"	"scientist/whoareyou.wav"
 	}
 }
 
@@ -226,6 +224,8 @@
 		"wave"	"scientist/lowervoice.wav"
 		"wave"	"scientist/excuse.wav"
 		"wave"	"scientist/sneeze.wav"
+		"wave"	"scientist/overhere.wav"
+		"wave"	"scientist/whoareyou.wav"
 	}
 }
 

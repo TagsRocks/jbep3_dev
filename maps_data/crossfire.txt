@@ -375,11 +375,20 @@
 			"origin"		"-366.97 -955.81 -1695.97"
 			"angles"		"0.00 98.72 0.00"
 	
-"targetname" "strike_mm"
-"OnTrigger" "secret_door,Unlock,,30"
-"OnTrigger" "secret_door,Lock,,55"	}
-}
+			"targetname" "strike_mm"
+			"OnTrigger" "secret_door,Unlock,,30"
+			"OnTrigger" "secret_door,Lock,,55"	
+		}
 
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"516.232361 -1607.438965 -1400.735840"
+			"angles"		"0.00 90 0"
+			"possess_type"	"2"
+		}
+
+	}
 
 	"KOTHAreas"
 	{
