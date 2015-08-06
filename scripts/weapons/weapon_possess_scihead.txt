@@ -38,7 +38,7 @@ WeaponData
 	{
 			"icon"
 		{
-			"file"		"VGUI/weapons/weapon_equipped_fists"
+			"file"		"VGUI/weapons/weapon_equipped_scihead"
 			"x"			"0"
 			"y"			"0"
 			"width"		"256"
@@ -46,7 +46,7 @@ WeaponData
 		}	
 		"icon_selection"
 		{
-			"file"		"VGUI/weapons/weapon_fists"
+			"file"		"VGUI/weapons/weapon_scihead"
 			"x"			"0"
 			"y"			"0"
 			"width"		"128"
