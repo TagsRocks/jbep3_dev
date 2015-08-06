@@ -213,6 +213,15 @@
 			"weapon_slam"		"jb_pickup_weapon_1"
 			"weapon_frag"		"jb_pickup_weapon_1"
 		}
+
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-70.427574 611.947327 771.193481"
+			"angles"		"0.00 -135 0"
+			"possess_type"	"2"
+		}
+
 	}
 	"KOTHAreas"
 	{

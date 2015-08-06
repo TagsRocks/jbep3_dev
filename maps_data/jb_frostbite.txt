@@ -43,4 +43,15 @@
 			}
 		}
 	}
+
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-341.958832 232.004684 -165.399780"
+			"angles"		"0.00 -90.00 0"
+			"possess_type"	"2"
+		}
+	}
 }

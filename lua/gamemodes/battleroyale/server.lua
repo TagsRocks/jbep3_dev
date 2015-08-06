@@ -211,7 +211,7 @@ end
 -- Add some possess spawns if the map has none
 function GM:SpawnCustomEntities()
 	-- If there's no possess spawns on this map, spawn some on spawnpoints	
-	if ( #ents.FindByClassname("jb_possess_spawn") == 0 ) then
+	if ( #ents.FindByClassname("jb_possess_spawn") < 2 ) then
 		local spawnPoints = ents.FindByClassname("jb_spawn_all")
 		local randomSciSpawn = math.random( 1, #spawnPoints )
 
@@ -225,7 +225,7 @@ function GM:SpawnCustomEntities()
 			end
 
 			local newPossess = CreateEntityByName( "jb_possess_spawn" )
-			newPossess:SetAbsOrigin( v:GetAbsOrigin() + Vector( 0, 0, 30 ) )
+			newPossess:SetAbsOrigin( v:GetAbsOrigin() + Vector( 0, 0, 10 ) )
 			newPossess:SetAbsAngles( v:GetAbsAngles() )
 			newPossess:KeyValue( "possess_type", randType )
 			newPossess:Spawn()
