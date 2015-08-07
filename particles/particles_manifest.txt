@@ -68,4 +68,5 @@ particles_manifest
 	"file"		"particles/dank_spray.pcf"
 	//junior's maps
 	"file"		"particles/lich.pcf"
+	"file"		"particles/snow.pcf"
 }
