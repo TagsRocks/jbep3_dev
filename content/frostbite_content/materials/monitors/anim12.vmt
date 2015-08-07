@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$basetexture" "monitors/anim12"
+	"$selfillum" 1
+	"$surfaceprop" "Glass"
+
+Proxies
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "25"
+      }
+   }
+
+}
