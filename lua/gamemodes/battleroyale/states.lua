@@ -173,6 +173,11 @@ function states.Round:Enter( gm )
 		game.BroadcastSound( 0, "JB.BRMusic_"..math.random( 2 ) )
 	end
 	
+	-- reset health of all players
+	for _, v in ipairs( player.GetAll() ) do
+		v:SetHealth( 100 )
+	end
+
 	gm.ActiveMutator:GiveItems()
 
 	if( gm.ActiveMutator and gm.ActiveMutator.RoundStart ~= nil ) then
