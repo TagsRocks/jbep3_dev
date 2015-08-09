@@ -45,6 +45,15 @@ function GM:Think()
 	end
 end
 
+-- player spawned
+function GM:PlayerSpawn( pl )
+
+	if( self.ActiveMutator and self.ActiveMutator.PlayerSpawned ) then
+		return self.ActiveMutator:PlayerSpawned( pl )
+	end
+
+end
+
 -- Only respawn in PreGame or PreRound
 function GM:PlayerCanRespawn( pl )	
 	return self:InState( "PreGame" ) or self:InState( "WaitingForPlayers" ) or self:InState( "PreRound" )
