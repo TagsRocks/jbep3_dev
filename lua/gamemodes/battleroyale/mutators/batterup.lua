@@ -7,15 +7,17 @@ mutator.Description = "#JB_BR_RoundTypeBatterUp_Desc"
 mutator.ItemPool = { "weapon_rocketcrowbar" }
 
 function mutator:RoundStart()
-	FindConVar( "jb_sv_impact_wallspeed" ):SetValue( 64 )
+	FindConVar( "jb_sv_impact_wallspeed" ):SetValue( 100 )
 	FindConVar( "jb_sv_impact_ceilspeed" ):SetValue( 30 )
 	FindConVar( "jb_sv_impact_damage" ):SetValue( 125 )
+	FindConVar( "jb_wep_rcrowbar_force_other_player" ):SetValue( 35)
 end
 
 function mutator:RoundEnd()
 	FindConVar( "jb_sv_impact_wallspeed" ):Revert()
 	FindConVar( "jb_sv_impact_ceilspeed" ):Revert()
 	FindConVar( "jb_sv_impact_damage" ):Revert()
+	FindConVar( "jb_wep_rcrowbar_force_other_player" ):Revert()
 end
 
 function mutator:OnWeaponEquipped( pl, weap )
