@@ -1,0 +1,67 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"60"	
+	"Bullets"			"1"	
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"#jb_weapon_shockrifle"
+	"viewmodel"					"models/weapons/v_shockrifle.mdl"
+	"playermodel"				"models/weapons/w_irifle.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"			"7"
+	"bucket_position"		"3"
+
+	// Ammo parameters
+	"primary_ammo"			"shockrifle"
+	"secondary_ammo"		"None"
+	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
+	"clip2_size"			"-1" 
+	"DefaultAmmoPrimary"	"24" 		// Default total ammo, not clips
+	"DefaultAmmoSecondary"	"0"
+
+	"weight"				"0"
+	"item_flags"			"0"
+	"fov"					"55"
+	"tracer_interval"		"0"
+	
+	Recoil
+	{
+		// Horizontal kickback. Positive = right, negative = left.
+		MinX	0
+		MaxX	0
+		// Vertical kickback. Positive = up, negative = down.
+		MinY	0
+		MaxY	0
+	}
+	
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Shock.Shoot"
+		"special1"			"Weapon_Shock.Alt"
+	}
+
+	TextureData
+	{
+		"icon"
+		{
+			"file"		"VGUI/weapons/weapon_equipped_bofors"
+			"x"			"0"
+			"y"			"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		"icon_selection"
+		{
+			"file"		"VGUI/weapons/weapon_bofors"
+			"x"			"0"
+			"y"			"0"
+			"width"		"128"
+			"height"	"64"
+		}			
+	}
+}

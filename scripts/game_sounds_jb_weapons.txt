@@ -1197,3 +1197,54 @@
 
 	"wave"			")weapons/boomerang/flight.wav"
 }
+
+
+"Weapon_Shock.Shoot"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"95,98"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"			"weapons/railgun/q2_railgun.wav"	
+}
+"Weapon_Shock.Alt"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"90,92"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"			"ambient/levels/labs/electric_explosion1.wav"	
+}
+
+"Weapon_Shock.Loop"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"60,60"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"npc\dog\dog_idlemode_loop1.wav"
+}
+
+"Weapon_Shock.Explode"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"90"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"weapons\mortar\mortar_explode1.wav"
+}
+
+"Weapon_Shock.ExplodeBig"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"			"85,85"
+
+	"soundlevel"	"SNDLVL_100dB"
+
+	"wave"			"weapons\mortar\mortar_explode2.wav"
+}

@@ -1,14 +1,16 @@
 VertexLitGeneric
 {
-	$basetexture "models/weapons/v_boomerang/boomerang"
-	$bumpmap "models/weapons/v_boomerang/boomerang_normal"
+	$basetexture "models/weapons/v_shockrifle/main"
+	//$bumpmap "models/weapons/v_boomerang/boomerang_normal"
 	$halflambert 1
 	$model 1
 
-	$phong 1
-	$phongexponenttexture "models/weapons/v_boomerang/boomerang_exp"
+	$phong 0
+	//$phongexponenttexture "models/weapons/v_boomerang/boomerang_exp"
 	$phongboost	16
 	$phongfresnelranges	"[0.05 0.5 1]"
+	
+	// this texture doesn't have any normal/exponent map yet...
 	
 	// Blood effects
 	$detail "models/blood.vtf"
