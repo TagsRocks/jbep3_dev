@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "ground/snow01"
+	"$basetexture2""nature2/rocky"
+	"$bumpmap2" "nature2/rocky_bump"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "rock"
+	"$blendmodulatetexture" "nature/blendtexture01"
+
+}

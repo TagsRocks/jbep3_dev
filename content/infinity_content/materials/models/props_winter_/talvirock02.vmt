@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_winter_/talvirock02"
+	"$normalmap" "models/props_winter_/talvirock02_normal"
+}

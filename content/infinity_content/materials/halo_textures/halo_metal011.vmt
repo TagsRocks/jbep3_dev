@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "halo_textures/halo_metal011"
+	"$surfaceprop" "Metal"
+}
