@@ -12,15 +12,15 @@ WeaponData
 	"playermodel"				"models/weapons/w_irifle.mdl"
 	"PlayerAnimationExtension"	"mp5"
 	
-	"bucket"			"7"
-	"bucket_position"		"3"
+	"bucket"			"8"
+	"bucket_position"		"1"
 
 	// Ammo parameters
 	"primary_ammo"			"shockrifle"
 	"secondary_ammo"		"None"
 	"clip_size"				"-1" 		// Max ammo inside a clip. -1 = Non-clip weapon
 	"clip2_size"			"-1" 
-	"DefaultAmmoPrimary"	"24" 		// Default total ammo, not clips
+	"DefaultAmmoPrimary"	"35" 		// Default total ammo, not clips
 	"DefaultAmmoSecondary"	"0"
 
 	"weight"				"0"
