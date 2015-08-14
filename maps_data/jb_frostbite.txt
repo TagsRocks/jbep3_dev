@@ -1,0 +1,151 @@
+"jb_frostbite"
+{
+	"KOTHAreas"
+	{
+		"Jim's left room"
+		{
+			"bounding_min"		"-1521 2305 224"
+			"bounding_max"		"-1024 1184 640"
+			"area_0"
+			{
+				"min"		"-1521 2305 224"
+				"max"		"-1024 1184 640"
+			}
+		}
+		"Jim's right room"
+		{
+			"bounding_min"		"1024 2305 224"
+			"bounding_max"		"1520 1184 640"
+			"area_0"
+			{
+				"min"		"1024 2305 224"
+				"max"		"1520 1184 640"
+			}
+		}
+		"middle teleport"
+		{
+			"bounding_min"		"-144 1120 416"
+			"bounding_max"		"144 1440 672"
+			"area_0"
+			{
+				"min"		"-144 1120 416"
+				"max"		"144 1440 672"
+			}
+		}
+		"cliffside"
+		{
+			"bounding_min"		"-512 240 0"
+			"bounding_max"		"512 -128 384"
+			"area_0"
+			{
+				"min"		"-512 240 0"
+				"max"		"512 -128 384"
+			}
+		}
+		"cafe"
+		{
+			"bounding_min"		"-319.9688 4735 220"
+			"bounding_max"		"319.9688 5300 488.5109"
+			"area_0"
+			{
+				"min"		"319.9688 5300 220"
+				"max"		"-319.9688 4735 488.5109"
+			}
+		}
+		"downstairs"
+		{
+			"bounding_min"		"-670 900 -128"
+			"bounding_max"		"670 1850 128"
+			"area_0"
+			{
+				"min"		"670 900 -128"
+				"max"		"-670 1850 128"
+			}
+		}
+	}
+	"Entities"
+	{
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-341.958832 232.004684 -165.399780"
+			"angles"		"0.00 -90.00 0"
+			"possess_type"		"2"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"1098.45 1685.53 416.03"
+			"angles"		"0.00 88.99 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"4.68 1132.48 416.03"
+			"angles"		"0.00 -90.44 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1108.38 1631.94 416.03"
+			"angles"		"0.00 89.38 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-592.18 2089.15 224.03"
+			"angles"		"0.00 38.33 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"588.98 2098.47 224.03"
+			"angles"		"0.00 135.45 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"215.24 2648.99 -20.53"
+			"angles"		"0.00 -115.19 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"4.29 3812.75 352.03"
+			"angles"		"0.00 90.60 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1053.09 -322.01 -80.89"
+			"angles"		"0.00 23.41 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"1050.27 -323.13 -68.60"
+			"angles"		"0.00 150.13 0.00"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-8.74 3404.40 725.91"
+			"angles"		"0.00 -89.16 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"-1183.20 -890.03 441.05"
+			"angles"		"0.00 60.37 0.00"
+			"possess_type"		"1"
+		}
+		"create"
+		{
+			"classname"		"jb_possess_spawn"
+			"origin"		"1103.26 -615.31 367.65"
+			"angles"		"0.00 133.82 0.00"
+			"possess_type"		"1"
+		}
+	}
+}
