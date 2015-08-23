@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\ibeama"
+	"$surfaceprop" "ice"
+	 "$color" "{156 255 251}"
+
+}
