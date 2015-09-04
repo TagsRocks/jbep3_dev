@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$baseTexture"					"metal/c1a4d_generator_grate_brush"
+	"$alphatest"					"1"
+	"$nodecal"						"1"
+	"%keywords"						"bms"
+}
