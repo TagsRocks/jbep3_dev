@@ -1,0 +1,23 @@
+"WorldVertexTransition"
+{
+
+
+	"$basetexture" "concrete\concretefloor020a"
+        "$detail" "detail\noise_detail_01"
+	"$detailscale" "7.345"
+	"$detailblendfactor" .6
+	"$detailblendmode" 0
+"$basetexture2" "nature/bnc_rock_001a"
+	"$bumpmap" "concrete\concretefloor020a_normal"
+
+"$bumpmap2" "nature/bnc_rock_001_norm"
+
+"$surfaceprop" "concrete"
+"$surfaceprop2" "rock"
+"$blendmodulatetexture" "nature/sandfloor_01_blendtexture"
+"%detailtype" "desert_sand_ripple"
+"%keywords" "bms, bounce, morloc"
+}
+
+
+

@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/props_am/laser3_scope_01"
+	"$selfillum"	1
+"Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "7"
+}
+		"Sine"
+		{
+			"resultVar" "$selfillumtint"
+			"sineperiod" "0.05"
+			"sinemin"	"0.85"
+			"sinemax" "1"
+		}
+	}
+}

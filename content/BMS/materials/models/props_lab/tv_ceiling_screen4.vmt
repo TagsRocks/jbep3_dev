@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/tv_ceiling_screen4"
+	"$texture2" "models/props_office/tv_small_screen_overlay"
+	"$model" "1"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" 	"$selfillumtint"
+			"sinePeriod" 	"0.01"
+			"sineMin"		"0.85"
+			"sineMax" 		"1"
+			"timeOffset" 	"0.0"
+		}
+	}
+}

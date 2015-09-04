@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/bnc_dirt_rocky_001a"
+	"$basetexture2" "nature/sandfloor_01"
+	"$bumpmap" "nature/bnc_dirt_rocky_001_norm"
+	"$bumpmap2" "nature/sandfloor_01_normal"
+	"$surfaceprop" "gravel"
+	"$surfaceprop2" "dirt"
+"$blendmodulatetexture" "nature/sandfloor_01_blendtexture"
+        "%detailtype" "desert_sand_ripple"
+	"%keywords" "bms, bounce, morloc"
+}

@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+// Temp bounce texture - Morloc
+	"$basetexture" "Nature/rp_rockwall002a"
+	"$basetexture2" "Nature/dirtground_bounce"
+"%detailtype2" "desert_norock_wave"
+	"%tooltexture" "Nature/rp_rockwall002a"
+	"$bumpmap" "Nature/st_rockcliff003_2_normal"
+	"$bumpmap2" "Nature/faf_dirtground2_normal"
+	"$surfaceprop" "rock"
+	"$surfaceprop2" "dirt"
+        "$basetexturetransform2" "scale .1 .1"
+	"%keywords" "bms,c2a4, bounce"
+	"$seamless_scale" "0.002" 
+"$envmap" "env_cubemap"
+}
+
+
+

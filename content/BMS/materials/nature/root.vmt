@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+$baseTexture "sprites/bounce_roots"
+$translucent 1
+$nocull 1
+}

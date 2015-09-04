@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+// Temp bounce texture - Morloc
+	"$basetexture" "concrete/concretefloor008a"
+	"$basetexture2" "nature/bnc_dirt_rocky_001a"
+
+	"%tooltexture" "Nature/dirtfloor003a"
+	
+	"$bumpmap2" "nature/bnc_dirt_rocky_001_norm"
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "dirt"
+ 
+"$blendmodulatetexture" "nature/sandfloor_01_blendtexture"       
+	"%keywords" "bms,c2a4, bounce"
+ 	 
+
+}
+
+
+

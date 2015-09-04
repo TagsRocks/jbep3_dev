@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"nature\bnc_dirt_rocky_large_001a"
+	"$bumpmap"	"nature\bnc_dirt_rocky_large_001_norm"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .8 .75 .7 ]"
+	"$envmap" "env_cubemap"
+
+	"$surfaceprop" "concrete"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "8"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "Jenn0, bms"
+}

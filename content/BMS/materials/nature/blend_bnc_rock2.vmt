@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/bnc_rock_001a"
+	"$basetexture2" "nature/bnc_rock_001b"
+	"$bumpmap" "nature/bnc_rock_001_norm"
+	"$bumpmap2" "nature/bnc_rock_001_norm"
+// "$basetexturetransform" "center 0 0 scale 3 3 rotate 0 translate 0 0"
+     // "$basetexturetransform" "center 0 0 scale 1 1 rotate 0 translate 0 0"
+     //  "$basetexturetransform2" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+//"$seamless_scale" "0.002"
+	"$surfaceprop" "rock"
+	"$surfaceprop2" "rock"
+"$blendmodulatetexture" "nature/sandfloor_01_blendtexture"
+ //       "%detailtype" "desert_sand_ripple"
+	"%keywords" "bms, bounce, morloc"
+}

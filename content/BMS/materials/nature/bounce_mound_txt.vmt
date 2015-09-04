@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/bounce_mound"
+ 	"$translucent" "1"
+         $surfaceprop dirt
+ 	"%keywords" "Bjorn"
+}
+
+

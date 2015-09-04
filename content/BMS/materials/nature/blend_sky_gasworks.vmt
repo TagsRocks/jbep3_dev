@@ -1,0 +1,28 @@
+BMS_Lightmapped_4WayBlend
+{
+    "$basetexture"              "nature\faf_dirtground2"
+    "$texture1_lumstart"        "0.0"
+    "$texture1_lumend"          "0.5"
+
+    "$basetexture2"             "nature\rp_rockwall001"
+    "$texture2_lumstart"        "0.0"
+    "$texture2_lumend"          "0.5"
+    "$texture2_blendstart"      "0.8"
+    "$texture2_blendend"        "0.9"
+
+    "$basetexture3"             "nature\sandfloor_01"
+    "$texture2_lumstart"        "0.0"
+    "$texture2_lumend"          "0.5"
+    "$texture2_blendstart"      "0.8"
+    "$texture2_blendend"        "0.9"
+
+    "$basetexture4"             "nature\rp_rockwall002a"
+    "$texture4_lumstart"        "0.0"
+    "$texture4_lumend"          "0.5"
+    "$texture4_blendstart"      "0.8"
+    "$texture4_blendend"        "0.9"
+
+    "$lumblendfactor2"          "0.5"
+    "$lumblendfactor3"          "0.5"
+    "$lumblendfactor4"          "0.5"
+}

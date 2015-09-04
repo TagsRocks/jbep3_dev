@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "gasworks/fl_gasworks_metal_wall_painted_beige"
+	"$bumpmap" "gasworks/fl_gasworks_wavy_ssb"
+	"$ssbump" "1"
+	"$SSBumpMathFix" "1"
+		
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.5 .5 .5]"
+	"$envmap" "env_cubemap"
+	
+	"$surfaceprop" "MetalPanel"
+}

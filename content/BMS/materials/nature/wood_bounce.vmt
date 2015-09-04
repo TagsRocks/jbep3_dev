@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"nature\wood_bounce"
+	"$bumpmap"	"nature\wood_bounce_nm"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .5 .5 .5 ]"
+	"$envmap" "env_cubemap"
+
+	"$surfaceprop" "wood"
+
+}

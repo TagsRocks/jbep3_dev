@@ -1,0 +1,16 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "nature/rockcliff02a_remake"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "nature/rockcliff02a_remake_n"
+	"%keywords" "bms" 
+	"$normalmapalphaenvmapmask" 1
+	//"$envmaptint" "[ .8 .75 .7 ]"
+	//"$envmap" "env_cubemap"
+
+    "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "8"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+}

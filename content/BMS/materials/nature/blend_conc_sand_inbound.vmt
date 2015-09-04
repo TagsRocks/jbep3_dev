@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "concrete\CSREV_concreteFloor_02"
+	"$baseTexture2" "nature\faf_dirtground2"	
+	"%tooltexture" "Nature/dirtfloor003a"
+
+	"$bumpmap" "concrete\CSREV_concreteFloor_02_normal"	
+	"$bumpmap2" "nature/faf_dirtground2_normal"
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "dirt"
+
+ 	"$blendmodulatetexture" "nature/sandfloor_01_blendtexture"       
+	"%keywords" "bms,inbound"
+ }
