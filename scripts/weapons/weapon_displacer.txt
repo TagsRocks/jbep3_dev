@@ -8,7 +8,7 @@ WeaponData
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"				"#jb_weapon_displacer"
-	"viewmodel"				"models/weapons/v_rpg_dx7.mdl"
+	"viewmodel"				"models/weapons/v_displacer.mdl"
 	"playermodel"			"models/weapons/w_rpg.mdl"
 	"fov"					"65"
 	
