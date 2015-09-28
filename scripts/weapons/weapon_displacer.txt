@@ -13,7 +13,7 @@ WeaponData
 	"fov"					"65"
 	
 	"bucket"				"8"
-	"bucket_position"		"1"
+	"bucket_position"		"2"
 	
 	// Ammo parameters
 	"primary_ammo"			"displacer"
